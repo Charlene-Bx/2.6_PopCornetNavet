@@ -6,10 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./asset/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./asset/node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/style/style.css">
 </head>
 <body>
-
-<script src="./asset/index.js"></script>
+<script src="./asset/js/index.js"></script>
 </body>
 </html>
