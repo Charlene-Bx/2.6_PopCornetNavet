@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PopCornetNavet</title>
     <link rel="stylesheet" href="./asset/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./asset/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="./asset/style/style.css">
