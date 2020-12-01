@@ -1,1 +1,0 @@
-alert("Tu as bien lier le JS!");
