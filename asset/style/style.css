@@ -1,1 +1,21 @@
-body{background-color: blueviolet;}
+body{background-color: #403c78;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form_login{
+    display: flex;
+    margin-top: 33%;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.btn_login{
+    display: flex;
+    margin-left: 132px;
+}
+
+.user_login{
+    margin-top: 30px;
+    margin-left: 300px;
+}
