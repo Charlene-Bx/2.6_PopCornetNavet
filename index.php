@@ -13,6 +13,7 @@
 </head>
 <body>
     <?php
+    require './asset/navbar.php';
     require 'login.php';
     ?>
 <script src="./asset/js/index.js"></script>
