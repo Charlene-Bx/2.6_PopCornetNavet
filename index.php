@@ -13,7 +13,9 @@
 </head>
 <body>
     <?php
+    require './asset/navbar.php';
     require 'login.php';
+    require './action.php';
     ?>
 <script src="./asset/js/index.js"></script>
 </body>
