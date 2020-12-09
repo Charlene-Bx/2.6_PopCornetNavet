@@ -1,24 +1,12 @@
-<?php
-    require './asset/navbar.php';
-    
-    ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body style= "font-family: 'Ubuntu', sans-serif;">
 
-<div class="card mb-3 mt-md-4 pt-md-4" style="max-width: 100%; height:600px;">
-<div class= "container-fluid">
-<div class="position-relative border display-4" style="left:90px; top:20px; width:40%; z-index:2;">
- LE MEILLEUR DU PIRE
-</div></div>
+
+  <div class="card mb-4 mt-md-4 pt-md-4" style="max-width: 100%; height:600px;">
+    <div class= "container-fluid">
+      <div class="position-relative border display-4" style="left:90px; top:20px; width:40%; z-index:2;">
+        LE MEILLEUR DU PIRE
+      </div>
+    </div>
+
   <div class="row no-gutters">
     <div class="col-md-8">
     <iframe class="card-img" width="600px" height="550px" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,36 +28,15 @@
       </div>
     </div>
   </div>
-</body>
-</html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
+
+<style>
   /* Make the image fully responsive */
   .carousel-inner iframe {
     width: 400px;
     height: 400px;
   }
   </style>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
   
 <div id="demo1" class="carousel slide ml-md-5 pl-md-5" data-ride="carousel">
 
@@ -106,37 +73,7 @@
   <span class="carousel-control-next-icon"></span>
 </a>
 </div>
-</body>
-</html>
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-  /* Make the image fully responsive */
-  .carousel-inner iframe {
-    width: 400px;
-    height: 400px;
-  }
-  </style>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
   
 <div id="demo" class="carousel slide ml-md-5 pl-md-5" data-ride="carousel">
 
@@ -173,8 +110,10 @@
   <span class="carousel-control-next-icon"></span>
 </a>
 </div>
-</body>
-</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
 
 
 
