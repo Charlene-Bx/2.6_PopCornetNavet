@@ -63,4 +63,11 @@ fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-
 });
 
  
+const btnpopUp= document.querySelector(".PopUp");
+const popUp= document.querySelector(".Pop_Up")
+const AfficherpopUp=()=>{
+    console.log("hey")
+    popUp.style.display="block";
+}
+btnpopUp.addEventListener("click",AfficherpopUp());
 

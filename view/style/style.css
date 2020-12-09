@@ -1,3 +1,65 @@
+input[type=text] {
+  padding: 3%;
+  background-color: #E3E1CC;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 7px 4px 17px 2px #FFFBE1;
+}
+
+a {
+  color: #3B3A34;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+a:hover {
+  color: #3B3A34;
+  font-weight: bold;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #9B95C4;
+  height: 10vh;
+}
+.NavBar .Logo {
+  margin: 1% 0% 0% 2%;
+  width: 100px;
+  height: 100px;
+  background-image: url("../img/Logo_200px_init.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.NavBar .Menu {
+  width: 70%;
+  padding: 0% 3% 0% 3%;
+  color: #3B3A34;
+}
+.NavBar .Menu .Menu_Link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  list-style: none;
+}
+.NavBar .Menu .Menu_Link input[type=text] {
+  width: 70%;
+}
+.NavBar .Menu .Menu_Link i {
+  padding: 0% 0% 0% 3%;
+}
+.NavBar .Drop_Menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.NavBar .Drop_Menu .Drop_Content {
+  display: inline-block;
+}
+
 .Pop_Up {
   width: 500px;
   height: 500px;
@@ -6,6 +68,7 @@
   margin: auto;
   font-family: "Ubuntu";
   color: #3B3A34;
+  display: none;
 }
 .Pop_Up .Logo-Lg {
   width: 300px;
@@ -56,11 +119,6 @@
 }
 .Pop_Up .Form_Login input[type=text] {
   width: 100%;
-  padding: 4%;
-  background-color: #E3E1CC;
-  border: none;
-  border-radius: 5px;
-  box-shadow: inset 7px 4px 17px 2px #FFFBE1;
 }
 .Pop_Up .btn_login {
   margin-left: 40px;
@@ -82,14 +140,6 @@
   display: flex;
   list-style: none;
   justify-content: space-between;
-}
-.Pop_Up .Under_Link a {
-  color: #3B3A34;
-  text-decoration: underline;
-  text-underline-position: under;
-}
-.Pop_Up .Under_Link a:hover {
-  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

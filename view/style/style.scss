@@ -4,10 +4,79 @@ $purpleL:#9B95C4;
 $white:#E3E1CC;
 $black:#3B3A34;
 $green:#CEF0BE;
+$shadowL: inset 7px 4px 17px 2px #FFFBE1;
 
 // MIXINS
-
+@mixin FlexRowJustify {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+};
+@mixin FlexColCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+};
 // RULES
+
+input[type="text"]{
+    padding: 3%;
+    background-color: $white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: $shadowL;
+};
+
+a{  
+    color: $black;
+    text-decoration: underline;
+    text-underline-position: under;
+};
+a:hover{
+    color: $black;
+    font-weight: bold;
+}
+
+.NavBar{
+    @include FlexRowJustify ();
+    background-color: $purpleL;
+    height: 10vh;
+    .Logo{
+        margin: 1% 0% 0% 2%;
+        width: 100px;
+        height: 100px;
+        background-image:url("../img/Logo_200px_init.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    };
+    .Menu {
+        width: 70%;
+        padding: 0% 3% 0% 3%;
+        color: $black;
+
+        .Menu_Link{
+            @include FlexRowJustify ();
+            width: 100%;
+            margin: 0;
+            list-style: none;
+
+            input[type="text"]{
+                width: 70%;
+            }
+            i{
+                padding: 0% 0% 0% 3%;
+            }
+        };
+        
+    };
+    .Drop_Menu{
+        @include FlexColCenter();
+        .Drop_Content{
+            display: inline-block;
+        }
+    }
+};
+
 .Pop_Up{
     width: 500px;
     height: 500px;
@@ -16,7 +85,8 @@ $green:#CEF0BE;
     margin: auto;
     font-family: "Ubuntu";
     color: $black;
-
+    display: ;
+    
     .Logo-Lg{
         width: 300px;
         height: 300px;
@@ -71,11 +141,6 @@ $green:#CEF0BE;
 
         input[type="text"]{
             width: 100%;
-            padding: 4%;
-            background-color: $white;
-            border: none;
-            border-radius: 5px;
-            box-shadow: inset 7px 4px 17px 2px #FFFBE1;
         }
     };
 
@@ -100,13 +165,6 @@ $green:#CEF0BE;
             list-style: none;
             justify-content: space-between;
         };
-        a{  
-            color: $black;
-            text-decoration: underline;
-            text-underline-position: under;
-        };
-        a:hover{
-            font-weight: bold;
-        }
+
     }
-}
+};
