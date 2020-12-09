@@ -17,7 +17,7 @@
 
     <div class="Under_Link">
         <ul>
-            <li><a href="newAccount.php"> Créer un nouveau compte</a></li>
+            <li><a href="./view/"> Créer un nouveau compte</a></li>
             <li><a href="newPassword.php"> Mot de passe oublié ?</a></li>
         </ul>
     </div>
