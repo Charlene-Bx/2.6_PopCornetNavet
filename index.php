@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PopCorn et Navet</title>
-    <link rel="stylesheet" href="./asset/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./asset/node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="./asset/style/style.css">
+    <link rel="stylesheet" href="./view/style/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./view/style/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./view/style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">    
 </head>
 <body>
     <?php
-    require './asset/navbar.php';
-    require 'login.php';
-    require './action.php';
+    // require './view/navbar.php';
+    // require './view/login.php';
+    // require './view/cat_action.php';
     ?>
-<script src="./asset/js/index.js"></script>
+    <div id="api" class="posters">
+                <h1>film connue</h1>
+    </div>
+
+    <div id="api2" class="posters1">
+                <h1>action</h1>
+    </div>
+
+    
+<script src="./view/js/index.js"></script>
 </body>
 </html>
