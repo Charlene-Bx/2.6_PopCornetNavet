@@ -18,7 +18,6 @@
     <?php
     require_once './view/navbar.php';
     require_once './view/login.php';
-    
     ?>
 <script src="./view/js/index.js"></script>
 </body>
