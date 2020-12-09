@@ -50,10 +50,10 @@
 <!-- The slideshow -->
 <div class="carousel-inner">
   <div class="carousel-item active">
-   <iframe class="card-img" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe class="card-img" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe class="card-img" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="card-img" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe id = "card" class="card-img" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id = "card" class="card-img" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe id = "card" class="card-img" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id = "card" class="card-img" src="https://www.youtube.com/embed/KylLpVUT00M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
   </div>
   <div class="carousel-item">
