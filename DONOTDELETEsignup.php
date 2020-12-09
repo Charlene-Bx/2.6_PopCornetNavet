@@ -1,4 +1,4 @@
-
+<!-- le noms des inputs et ids sont liés a la DB -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,16 +20,13 @@
 
         <form class="form" method="POST" action="">
             <div class="input_fild">
-                <label for="fname">first name</label>
-                <input name="fname" type="text" class="input" id="fname" required>
+                <label for="fuserName">userName</label>
+                <input name="fuserName" type="text" class="input" id="fuserName" required>
             </div>
+            
             <div class="input_fild">
-                <label for="lname">last name</label>
-                <input name="lname" type="text" class="input" id="lname" required>
-            </div>
-            <div class="input_fild">
-                <label for="email1">email address</label>
-                <input name="email1" type="email1" class="input" id="email1" required>
+                <label for="Email1">Email address</label>
+                <input name="Email1" type="Email1" class="input" id="Email1" required>
             </div>
             <div class="input_fild">
                 <label for="pass1">password</label>
@@ -42,7 +39,7 @@
 
             <input type="submit" name="submit" value="Subscribe" style="width:auto">
 
-            <?php include 'brain/signin.php'; ?>
+            <?php include 'brain/createAccount.php'; ?>
         </form>
     </div>
     </body>

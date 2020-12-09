@@ -24,18 +24,16 @@ if(isset($_POST['submit'])){
         global $db;
         
         
-        $q = $db->prepare("INSERT INTO users(firstname, lastname, email, pass) VALUES ('$fname','$lname','$email1','$hashpass')");
+        $q = $db->prepare("INSERT INTO User (userName, Email, cmdp) VALUES ('$fuserName','$Email1','$hashpass')");
         $q->execute([
-            'firstname'->$fname,
-            'lastname'->$lname,
-            'email'->$email1,
-            'pass'->$hashpass
+            'userName'->$fuserName,
+            'Email'->$Email1,
+            'cmdp'->$hashpass
             ]);
 
-        header("Location:./index.php")
+        header("Location:./index.php");
     }else{
         echo "<p>Veuillez remplir correctement tous les champs svp...</p>";
     }
 }
-
 ?> 

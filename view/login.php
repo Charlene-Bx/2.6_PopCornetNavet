@@ -1,14 +1,14 @@
 <div class="Pop_Up" >
     <div class="Logo-Lg"></div>
     <button class="Button_Esc">X</button>        
-    <form class="Form_Login" action="./asset/authentification.php" method="POST">
+    <form class="Form_Login" action="" method="POST">
         <div>
-            <label for="eMail">Adresse e-mail:</label>
-            <input type="text" name="eMail" id="eMail" placeholder="MonAdresseMail@mail.com">
+            <label for="Email">Adresse e-mail:</label>
+            <input type="text" name="Email" id="Email" placeholder="MonAdresseMail@mail.com">
         </div>
         <div>
-            <label for="MdP">Mot de passe:</label>
-            <input type="text" name="MdP" id="MdP" placeholder="*********">
+            <label for="cmdp">Mot de passe:</label>
+            <input type="text" name="cmdp" id="cmdp" placeholder="*********">
         </div>
         <div>
             <button class= "btn_login" type="submit">Me connecter</button>
@@ -22,6 +22,8 @@
         </ul>
     </div>
 </div>
+
+
 
         
 

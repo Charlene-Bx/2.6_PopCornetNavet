@@ -1,9 +1,9 @@
 <?php
-    include("secretInfo.php");
+    include("secret-info.php");
     $userData = userData;
     $userPass = passData;
     define('HOST','localhost'); 
-    define('DATABASE','nextflix'); 
+    define('DATABASE','PopcornEtNavet'); 
 
     try {
     $db = new PDO("mysql:host=".HOST.";dbname=".DATABASE,$userData,$userPass);

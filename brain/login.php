@@ -20,27 +20,27 @@ if(isset($_POST['login']))
 
     
 
-    if(!empty($mail) && !empty($pass))
+    if(!empty($Email) && !empty($cmdp))
     {
         
-        $q = $db->prepare("SELECT * FROM users WHERE email = :email");
+        $q = $db->prepare("SELECT * FROM User WHERE Email = :Email");
             $q->execute([
-                'email'=>$mail]);
+                'Email'=>$Email]);
 
             $result = $q->fetch(); 
             
             if($result == true)
             {
-            if(password_verify($pass, $result["pass"])){
+            if(password_verify($pass, $result["cmdp"])){
                 session_start();
-                $_SESSION['firstname']=$result['firstname'];
-                header('Location: http://localhost:8888/Nextflix/home.php');
+                $_SESSION['userName']=$result['userName'];
+                header('Location: http://localhost:8888/2.6_PopCornetNavet/home.php');
                 exit();
             }else {
                 echo "le mot de passe est incorect";
             }
         }else{
-            echo "le compte $mail n'existe pas";
+            echo "le compte $Email n'existe pas";
         }
     }else{
         echo "Veuillez remplir tous les champs.";
