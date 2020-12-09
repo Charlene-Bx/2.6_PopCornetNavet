@@ -1,20 +1,47 @@
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+<div class="NavBar">
+    <div class="Logo">
+        <!-- url image dans le CSS -->
     </div>
-  </div>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div> 
+
+    <div class="Menu">
+        <ul class="Menu_Link">
+            <li>
+                <a href="./index.php">Acceuil</a>
+            </li>
+            <!-- menu deroulant en JS -->
+            <li class="Drop_Menu">
+                <a href="./view/category.php">Films</a>
+                <div class="Drop_Content">
+                    <ul>
+                        <li><a href="./view/cat_action.php">Action</a></li>
+                        <li><a href="./view/cat_action.php">Aventure</a></li>
+                        <li><a href="./view/cat_action.php">Serie</a></li>
+                        <li><a href="./view/cat_action.php">Horreur</a></li>
+                        <li><a href="./view/cat_action.php">Comédie</a></li>
+                        <li><a href="./view/cat_action.php">Bollywood</a></li>
+                        <li><a href="./view/cat_action.php">Romance</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>
+                <a href="interview.php">Interviews</a>
+            </li>
+
+            <li>
+                <a href="critiques.php">Critiques</a>
+            </li>
+
+            <li>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="recherche">
+                    <i class="fas fa-search"></i>
+                </form>
+            </li>
+            <li class="PopUp"><a href="./index.php">Connexion</a></li>
+        </ul>
+    </div>
+</div>
 <!-- 
 <div class="navbar navbar-inverse" >
         <div class="container-fluid">
