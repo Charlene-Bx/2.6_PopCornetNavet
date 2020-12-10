@@ -31,8 +31,8 @@ if ($name!= ""){$msg = "Welcome ".$fuserName."<br><br>";
 </head>
 <body>
     <?php
-    require_once './brain/login.php';
-    require_once 'navbar.php';
+    include './brain/login.php';
+    include 'navbar.php';
     
     ?>
 

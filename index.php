@@ -21,6 +21,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     //require './view/navbar.php';
      require './view/login.php';
     // require './view/cat_action.php';
@@ -32,11 +33,15 @@
     
 =======
 >>>>>>> a1c59b99beaf659690f5392409cd5e46f178c3c3
+=======
+
+
+>>>>>>> 21e8b46c9b1be93b5e1837035742f8957110d488
     require_once './view/login.php';
     require_once './brain/login.php';
 
-    // require_once './view/signin.php';
-    // require_once './brain/createAccount.php';
+    require_once './view/signin.php';
+    require_once './brain/createAccount.php';
    
 
 
