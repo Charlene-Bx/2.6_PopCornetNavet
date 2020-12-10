@@ -1,6 +1,14 @@
-<div class="Pop_Up" >
+<div class="Intro">
+    <h1>Bienvenue!</h1>
+    <p>
+        <span class="Bold">Prêt à regarder le meilleur des trés mauvais films? </span> <br>
+        Connecte-toi pour avoir un accés illimité à tout un tas de navets.
+    </p>
+</div>
+
+<div class="Container" id="login">
     <div class="Logo-Lg"></div>
-    <button class="Button_Esc">X</button>        
+    
     <form class="Form_Login" action="" method="POST">
         <div>
             <label for="Email">Adresse e-mail:</label>
@@ -17,8 +25,8 @@
 
     <div class="Under_Link">
         <ul>
-            <li><a href="newAccount.php"> Créer un nouveau compte</a></li>
-            <li><a href="newPassword.php"> Mot de passe oublié ?</a></li>
+            <li><a href="./view/signin.php"> Tu n'as pas encore de compte?</a></li>
+            <li><a href="newPassword.php"> Tu as oublié ton mot de passe?</a></li>
         </ul>
     </div>
 </div>
