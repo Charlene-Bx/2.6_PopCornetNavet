@@ -9,7 +9,7 @@
 <div class="Container" id="login">
     <div class="Logo-Lg"></div>
     
-    <form class="Form_Login" action="view/homePage.php" method="POST">
+    <form class="Form_Login" action="" method="POST">
         <div>
             <label for="Email">Adresse e-mail:</label>
             <input type="email" name="Email" id="Email" class="Input" placeholder="MonAdresseMail@mail.com" required>
@@ -19,7 +19,7 @@
             <input type="password" name="cmdp" id="cmdp"  class="Input" placeholder="*********" required>
         </div>
         <div>
-            <button class= "btn_login" type="submit">Me connecter</button>
+            <button class= "btn_login" name="login"  type="submit">Me connecter</button>
         </div>
     </form>
 
