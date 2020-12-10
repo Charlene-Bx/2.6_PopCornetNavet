@@ -9,7 +9,7 @@
 <div class="Container" id="login">
     <div class="Logo-Lg"></div>
     
-    <form class="Form_Login" action="" method="POST">
+    <form class="Form_Login" action="view/homePage.php" method="POST">
         <div>
             <label for="Email">Adresse e-mail:</label>
             <input type="text" name="Email" id="Email" placeholder="MonAdresseMail@mail.com">

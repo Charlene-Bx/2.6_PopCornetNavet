@@ -15,8 +15,8 @@
 </head>
 <body>
     <?php
-    require_once './view/navbar.php';
-    require_once './brain/login.php';
+    require_once 'navbar.php';
+    include './brain/login.php';
     ?>
 
     <div id="api" class="posters">
