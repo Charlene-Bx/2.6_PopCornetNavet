@@ -19,12 +19,16 @@
 
     <?php
 
-    // require './view/navbar.php';
+
+    //require './view/navbar.php';
     // require './view/login.php';
     // require './view/cat_action.php';
+   ?>
+    <!-- <div id="api" class="posters">
+                <h1>film connue</h1>
+    </div> -->
+
     
-
-
     require_once './view/login.php';
     require_once './brain/login.php';
     
