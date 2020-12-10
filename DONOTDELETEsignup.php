@@ -37,7 +37,7 @@
                 <input name="pass2" type="password" class="input" id="pass2" required>
             </div>
 
-            <input type="submit" name="submit" value="Subscribe" style="width:auto">
+            <input type="submit" name="login" value="Subscribe" style="width:auto">
 
             <?php include 'brain/createAccount.php'; ?>
         </form>
