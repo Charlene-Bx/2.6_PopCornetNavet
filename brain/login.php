@@ -33,8 +33,10 @@ if(isset($_POST['login']))
             {
             if(password_verify($cmdp, $result["cmdp"])){
                 session_start();
+
                 $_SESSION['userName']= $result['userName'];
                 header('Location: http://localhost:8888/2.6_PopCornetNavet/view/homePage.php');
+
                 exit();
                 // faire variable pour afficher les else
             }else {
