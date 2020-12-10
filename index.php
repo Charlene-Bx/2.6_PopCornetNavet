@@ -20,11 +20,13 @@
     <?php
 
 
+
+
     require_once './view/login.php';
     require_once './brain/login.php';
 
-    // require_once './view/signin.php';
-    // require_once './brain/createAccount.php';
+    require_once './view/signin.php';
+    require_once './brain/createAccount.php';
    
 
 
