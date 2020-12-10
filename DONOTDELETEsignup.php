@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+<?php require './brain/createAccount.php'; ?>
+
     
     <div class="logo">
        <img src="images/logo.png" alt="">
@@ -39,7 +41,7 @@
 
             <input type="submit" name="login" value="Subscribe" style="width:auto">
 
-            <?php include 'brain/createAccount.php'; ?>
+            
         </form>
     </div>
     </body>
