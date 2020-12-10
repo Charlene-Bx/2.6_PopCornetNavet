@@ -40,6 +40,9 @@
             </li>
             <li class="PopUp"><a href="./index.php">Connexion</a></li>
         </ul>
+        <div class="btn-toolbar">
+                    <a class="btn btn-danger" href="logout.php" role="button" style="background-color: #761313; margin-left: 9px;">log out</a>
+                </div>
     </div>
 </div>
 <!-- 
