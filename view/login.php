@@ -12,11 +12,11 @@
     <form class="Form_Login" action="view/homePage.php" method="POST">
         <div>
             <label for="Email">Adresse e-mail:</label>
-            <input type="text" name="Email" id="Email" placeholder="MonAdresseMail@mail.com">
+            <input type="email" name="Email" id="Email" class="Input" placeholder="MonAdresseMail@mail.com" required>
         </div>
         <div>
             <label for="cmdp">Mot de passe:</label>
-            <input type="text" name="cmdp" id="cmdp" placeholder="*********">
+            <input type="password" name="cmdp" id="cmdp"  class="Input" placeholder="*********" required>
         </div>
         <div>
             <button class= "btn_login" type="submit">Me connecter</button>
