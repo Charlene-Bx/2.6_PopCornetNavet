@@ -1,3 +1,19 @@
+<?php session_start();
+$login="index.php";
+$subscribe="signup.php";
+$msg = "";
+$name = $_SESSION['fuserName'];
+if ($name!= ""){$msg = "Welcome ".$fuserName."<br><br>";
+}else {
+    $msg = '<li class="nav-item"><a class="nav-link" href="'.$login.'">Log in</a></li><li class="nav-item"><a class="nav-link" href="'.$subscribe.'">Subscribe</a></li>';
+    //  "<a href='$login'>Log in</a>"." or "."<a href='$subscribe'>Sign up</a>"."</p>";   
+}
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +31,9 @@
 </head>
 <body>
     <?php
+    require_once './brain/login.php';
     require_once 'navbar.php';
-    include './brain/login.php';
+    
     ?>
 
     <div id="api" class="posters">
