@@ -16,7 +16,7 @@
 </head>
 <body>
     <?php
-    // require './view/navbar.php';
+    require './view/navbar.php';
     // require './view/login.php';
     // require './view/cat_action.php';
     ?>
