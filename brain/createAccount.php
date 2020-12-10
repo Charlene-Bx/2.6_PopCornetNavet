@@ -23,12 +23,13 @@ if(isset($_POST['submit'])){
         include 'database.php';
         global $db;
         
-        
-        $q = $db->prepare("INSERT INTO User (userName, Email, cmdp) VALUES ('$fuserName','$Email1','$hashpass')");
+        $confirmationToken = rand(0,10);
+        $q = $db->prepare("INSERT INTO User (userName, Email, cmdp, confirmationToken) VALUES ('$fuserName','$Email1','$hashpass', '$confirmationToken')");
         $q->execute([
             'userName'->$fuserName,
             'Email'->$Email1,
-            'cmdp'->$hashpass
+            'cmdp'->$hashpass,
+            'confirmationToken'->$confirmationToken
             ]);
 
         header("Location:./index.php");

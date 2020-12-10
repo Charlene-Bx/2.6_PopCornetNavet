@@ -24,8 +24,7 @@ if(isset($_POST['login']))
     {
         
         $q = $db->prepare("SELECT * FROM User WHERE Email = :Email");
-            $q->execute([
-                'Email'=>$Email]);
+            $q->execute(['Email'=>$Email]);
 
             $result = $q->fetch(); 
             
