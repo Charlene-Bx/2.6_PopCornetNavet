@@ -41,10 +41,10 @@
     //  Requête db pour la login page; quand l'utilisateur clique sur "me connecter" si il est dans les bases de donnée, l'envoyer sur homePage.php
 
     ?>
-    
-    <div id="api" class="posters">
+
+    <!-- <div id="api" class="posters">
         <h1>film connue</h1>
-    </div>
+    </div> -->
     
 <script src="./view/js/index.js"></script>
 </body>
