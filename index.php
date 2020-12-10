@@ -19,6 +19,7 @@
 
     <?php
 
+
     //require './view/navbar.php';
     // require './view/login.php';
     // require './view/cat_action.php';
@@ -26,9 +27,13 @@
     <!-- <div id="api" class="posters">
                 <h1>film connue</h1>
     </div> -->
-<?php
+
+    
     require_once './view/login.php';
     require_once './brain/login.php';
+    
+    
+
 
 
     // require_once './view/signin.php';
@@ -40,6 +45,10 @@
     //  Requête db pour la login page; quand l'utilisateur clique sur "me connecter" si il est dans les bases de donnée, l'envoyer sur homePage.php
 
     ?>
+
+    <!-- <div id="api" class="posters">
+        <h1>film connue</h1>
+    </div> -->
     
 <script src="./view/js/index.js"></script>
 </body>
