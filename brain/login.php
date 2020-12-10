@@ -34,7 +34,7 @@ if(isset($_POST['login']))
             if(password_verify($pass, $result["cmdp"])){
                 session_start();
                 $_SESSION['userName']=$result['userName'];
-                header('Location: http://localhost:8888/2.6_PopCornetNavet/home.php');
+                header('Location: http://localhost:8888/2.6_PopCornetNavet/view/homePage.php');
                 exit();
             }else {
                 echo "le mot de passe est incorect";

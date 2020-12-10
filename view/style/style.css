@@ -9,7 +9,7 @@ span.Bold {
   font-size: 1.3em;
 }
 
-input[type=text] {
+.Input {
   padding: 3%;
   background-color: #E3E1CC;
   border: none;
@@ -83,7 +83,7 @@ a:hover {
 .Container .Form_Login label {
   font-weight: bolder;
 }
-.Container .Form_Login input[type=text] {
+.Container .Form_Login .Input {
   width: 100%;
 }
 .Container .btn_login {
