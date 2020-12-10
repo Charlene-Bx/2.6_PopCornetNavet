@@ -41,11 +41,7 @@
 
             <input type="submit" name="login" value="Subscribe" style="width:auto">
 
-<<<<<<< HEAD
             <?php include './brain/createAccount.php'; ?>
-=======
-            
->>>>>>> 21e8b46c9b1be93b5e1837035742f8957110d488
         </form>
     </div>
     </body>
