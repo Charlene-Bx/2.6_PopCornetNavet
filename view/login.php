@@ -1,4 +1,4 @@
-<div class="Intro">
+<div class="Intro Display-login">
     <h1>Bienvenue!</h1>
     <p>
         <span class="Bold">Prêt à regarder le meilleur des trés mauvais films? </span> <br>
@@ -6,7 +6,7 @@
     </p>
 </div>
 
-<div class="Container" id="login">
+<div class="Container Display-login" id="login">
     <div class="Logo-Lg"></div>
     
     <form class="Form_Login" action="" method="POST">
@@ -26,7 +26,7 @@
     <div class="Under_Link">
         <ul>
             <li><a id="signIn" href="#"> Tu n'as pas encore de compte?</a></li>
-            <li><a id="lostCmdp" href="newPassword.php"> Tu as oublié ton mot de passe?</a></li>
+            <li><a id="lostCmdp" href="./view/newPassword.php"> Tu as oublié ton mot de passe?</a></li>
         </ul>
     </div>
 </div>
