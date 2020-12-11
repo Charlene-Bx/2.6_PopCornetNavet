@@ -1,13 +1,14 @@
-<?php session_start();
-$login="index.php";
-$subscribe="signup.php";
-$msg = "";
-$name = $_SESSION['fuserName'];
-if ($name!= ""){$msg = "Welcome ".$fuserName."<br><br>";
-}else {
-    $msg = '<li class="nav-item"><a class="nav-link" href="'.$login.'">Log in</a></li><li class="nav-item"><a class="nav-link" href="'.$subscribe.'">Subscribe</a></li>';
-    //  "<a href='$login'>Log in</a>"." or "."<a href='$subscribe'>Sign up</a>"."</p>";   
-}
+<?php 
+// session_start();
+// $login="index.php";
+// $subscribe="signup.php";
+// $msg = "";
+// $name = $_SESSION['fuserName'];
+// if ($name!= ""){$msg = "Welcome ".$fuserName."<br><br>";
+// }else {
+//     $msg = '<li class="nav-item"><a class="nav-link" href="'.$login.'">Log in</a></li><li class="nav-item"><a class="nav-link" href="'.$subscribe.'">Subscribe</a></li>';
+//     //  "<a href='$login'>Log in</a>"." or "."<a href='$subscribe'>Sign up</a>"."</p>";   
+// }
 ?>
 
 
@@ -31,7 +32,7 @@ if ($name!= ""){$msg = "Welcome ".$fuserName."<br><br>";
 </head>
 <body>
     <?php
-    include './brain/login.php';
+    // include './brain/login.php';
     include 'navbar.php';
     
     ?>
@@ -45,6 +46,7 @@ if ($name!= ""){$msg = "Welcome ".$fuserName."<br><br>";
     </div>
 
     
-<script src="./view/js/index.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/api.js"></script>
 </body>
 </html>
