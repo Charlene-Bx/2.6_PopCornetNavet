@@ -1,12 +1,12 @@
-<!-- <div class="Intro">
+<div class="Intro Display-signin">
     <h1>Inscris-toi!</h1>
     <p>
         <span class="Bold">Les mauvais films font tes meilleures soirée? </span> <br>
         Inscris-toi pour découvrir de nouveaux navets tous plus mauvais les uns que les autres!
     </p>
-</div> -->
+</div>
 
-<div class="Container" id="signin">
+    <div class="Container Display-signin" id="signin">
         <div class="Logo-Lg"></div>
 
         <form class="Form_Login" method="POST" action="">
@@ -21,14 +21,21 @@
             </div>
             <div>
                 <label for="pass1">Mot de passe:</label>
-                <input name="pass1" type="text" id="pass1" required>
+                <input name="pass1" type="password" id="pass1" required>
             </div>
             <div>
                 <label for="pass2">Confirmation du mot de passe:</label>
-                <input name="pass2" type="text" id="pass2" required>
+                <input name="pass2" type="password" id="pass2" required>
             </div>
 
             <input type="submit" name="submit" value="Créer un compte" style="width:auto">
 
         </form>
+
+        <div class="Under_Link">
+        <ul>
+            <li><a id="logIn" href="#"> Connecte toi!</a></li>
+        </ul>
+        </div>
+
     </div>
