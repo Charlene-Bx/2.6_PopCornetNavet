@@ -1,4 +1,24 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopCorn et Navet</title>
+    <link rel="stylesheet" href="./style/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./style/style.css">
+      
+</head>
+<body>
+    <?php
+    // include './brain/login.php';
+    include 'navbar.php';
+    
+    ?>
 
   <div class="card mb-4 mt-md-4 pt-md-4" style="max-width: 100%; height:600px;">
     <div class= "container-fluid">
@@ -115,5 +135,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
 
-
+  <script src="./view/js/index.js"></script>
+<script src="./view/js/api.js"></script>
+</body>
+</html>
 

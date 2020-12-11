@@ -134,16 +134,18 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #9B95C4;
+  background-color: #9b95c45e;
   height: 10vh;
 }
 .NavBar .Logo {
   margin: 1% 0% 0% 2%;
-  width: 100px;
-  height: 100px;
-  background-image: url("../img/Logo_200px_init.svg");
+  width: 150px;
+  height: 150px;
+  background-image: url("../img/PN-1.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
+  top: -50%;
 }
 .NavBar .Menu {
   width: 70%;

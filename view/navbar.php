@@ -13,9 +13,9 @@
                 <a href="./view/category.php">Films</a>
                 <div class="Drop_Content">
                     <ul>
-                        <li><a href="./view/cat_action.php">Action</a></li>
-                        <li><a href="./view/cat_action.php">Aventure</a></li>
-                        <li><a href="./view/cat_action.php">Serie</a></li>
+                        <li><a href="./cat_action.php">Action</a></li>
+                        <li><a href="./cat_action.php">Aventure</a></li>
+                        <li><a href="./cat_action.php">Serie</a></li>
                         <li><a href="./view/cat_action.php">Horreur</a></li>
                         <li><a href="./view/cat_action.php">Comédie</a></li>
                         <li><a href="./view/cat_action.php">Bollywood</a></li>
