@@ -10,7 +10,7 @@
             </li>
             <!-- menu deroulant en JS -->
             <li class="Drop_Menu">
-                <a href="./view/category.php">Films</a>
+                <a href="./view/category.php">Films</a><i class="fas fa-sort-down"></i>
                 <div class="Drop_Content">
                     <ul>
                         <li><a href="./cat_action.php">Action</a></li>
@@ -38,67 +38,20 @@
                     <i class="fas fa-search"></i>
                 </form>
             </li>
-            <li class="PopUp"><a href="./index.php">Connexion</a></li>
-        </ul>
-        <div class="btn-toolbar">
-                    <a class="btn btn-danger" href="logout.php" role="button" style="background-color: #761313; margin-left: 9px;">log out</a>
+            <li class="Drop_Menu"><a href="./index.php">Mon compte</a><i class="fas fa-sort-down"></i>
+            <div class="Drop_Content">
+                    <ul>
+                        <li><a href="./cat_action.php">Mon profil</a></li>
+                        <li><a href="./cat_action.php">Ma liste</a></li>
+                        <li><a href="./cat_action.php">Mes critiques</a></li>
+                        <li><a href="./view/cat_action.php">Déconexion</a></li>
+                    </ul>
                 </div>
+            </li>
+        </ul>
     </div>
 </div>
-<!-- 
-<div class="navbar navbar-inverse" >
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
 
-                    <div class="navbar-header">
-                        <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                        <a href="#" class="navbar-brand">Logo</a>
-                    </div>
-
-                    <div class="navbar-collapse collapse" id="mobile_menu">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Films<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Horreur</a></li>
-                                    <li><a href="#">Comédie</a></li>
-                                    <li><a href="#">Bollywood</a></li>
-                                    <li><a href="#">Romance</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Interviews</a></li>
-                            <li><a href="#">Critiques</a></li> 
-                        </ul>
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <form action="" class="navbar-form">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <input type="search" name="search" id="" placeholder="Search Anything Here..." class="form-control">
-                                            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-                                        </div>
-                                    </div>
-                                </form>
-                            </li>
-                        </ul>
-
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
-                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Login / Sign Up <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Login</a></li>
-                                    <li><a href="#">Sign Up</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    
 
 
 

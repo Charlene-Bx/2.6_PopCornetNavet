@@ -1,6 +1,7 @@
 body {
   background: #3b3a34;
   background: radial-gradient(circle, #3b3a34 32%, #1b1a18 100%);
+  color: #E3E1CC;
   font-family: "ubuntu";
 }
 
@@ -26,6 +27,48 @@ a {
 a:hover {
   color: #3B3A34;
   font-weight: bold;
+}
+
+h1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 5px #3B3A34;
+  margin-left: 5%;
+  position: relative;
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 5px #3B3A34;
+  margin-left: 5%;
+  position: relative;
+  font-size: 2.3em;
+}
+
+.section {
+  width: 100vw;
+  background-color: #9b95c45e;
+  margin-top: 150px;
+}
+.section h1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 5px #3B3A34;
+  margin-left: 5%;
+  position: relative;
+  font-size: 3em;
+  top: -30px;
+}
+.section h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 5px #3B3A34;
+  margin-left: 5%;
+  position: relative;
+  font-size: 2.3em;
+  top: -24px;
 }
 
 .Intro {
@@ -135,24 +178,35 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   background-color: #9b95c45e;
-  height: 10vh;
+  height: 70px;
+  padding-top: 20px;
+}
+.NavBar a {
+  color: #E3E1CC;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.NavBar a:hover {
+  color: #CEF0BE;
+  text-shadow: 2px 3px 5px #3B3A34;
 }
 .NavBar .Logo {
-  margin: 1% 0% 0% 2%;
   width: 150px;
   height: 150px;
   background-image: url("../img/PN-1.svg");
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  top: -50%;
+  top: -50px;
+  left: 50px;
 }
 .NavBar .Menu {
   width: 70%;
   padding: 0% 3% 0% 3%;
-  color: #3B3A34;
 }
 .NavBar .Menu .Menu_Link {
+  font-size: 1.2em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -160,19 +214,32 @@ a:hover {
   margin: 0;
   list-style: none;
 }
+.NavBar .Menu .Menu_Link li {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
 .NavBar .Menu .Menu_Link input {
   width: 70%;
 }
 .NavBar .Menu .Menu_Link i {
   padding: 0% 0% 0% 3%;
-}
-.NavBar .Drop_Menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  color: #E3E1CC;
 }
 .NavBar .Drop_Menu .Drop_Content {
-  display: inline-block;
+  position: absolute;
+  top: 70px;
+  background-color: #9b95c45e;
+  margin: 0;
+}
+.NavBar .Drop_Menu .Drop_Content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.NavBar .Drop_Menu .Drop_Content li {
+  display: none;
+  margin: 10px 0px 5px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

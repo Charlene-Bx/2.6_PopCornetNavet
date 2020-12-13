@@ -22,7 +22,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}&language=
                 case "Music":
                 case "Tv Movie":
                 genre.push(element);
-                console.log('element:', element)
+                // console.log('element:', element)
 
                 break;
             };
@@ -37,7 +37,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}&language=
 fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`)
 .then (response => response.json())
 .then ((data)=>{
-    console.log('data:', data)
+    // console.log('data:', data)
     data.results.forEach(element => {
         
         document.querySelector("#api").insertAdjacentHTML("beforeend",`<img data-id=${element.id} data-genre=${element.genre_ids[0]} src="${poster}${element.poster_path}" width="150px" style="padding-right:5px">`)
@@ -52,7 +52,7 @@ fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-
         
     })
     document.querySelectorAll("#api img").forEach(element =>{
-        console.log('element:', element)
+        // console.log('element:', element)
         if(element.dataset.genre==28){
             
             document.querySelector("#api2").insertAdjacentHTML("beforeend", `<img data-id=${element.id} data-genre=${element.dataset.genre} src="${element.src}" width="150px" style="padding-right:5px">`  ) 
