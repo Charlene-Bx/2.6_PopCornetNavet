@@ -33,20 +33,28 @@
 <body>
     <?php
     // include './brain/login.php';
-    include 'navbar.php';
+    require_once 'navbar.php';
     
     ?>
-
-    <div id="api" class="posters">
-                <h1>film connue</h1>
+    <div class="section">
+        <h1>Le meilleur du pire</h1>
+        <?php
+            include "./maxi_carousel.php"
+        ?>
     </div>
 
-    <div id="api2" class="posters1">
-                <h1>action</h1>
+    <div class="section">
+        <h2>Les nouveautés</h2>
+        <?php
+            include "./mini_carousel.php"
+        ?>
     </div>
 
-    
-<script src="./js/index.js"></script>
+
+<?php
+        include "./footer.php"
+    ?>  
+<script src="./js/navbar.js"></script>
 <script src="./js/api.js"></script>
 </body>
 </html>
